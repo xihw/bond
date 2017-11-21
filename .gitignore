@@ -15,3 +15,5 @@
 # VS
 .vs/
 .vscode/
+
+*.DS_Store

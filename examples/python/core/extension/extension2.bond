@@ -1,0 +1,73 @@
+namespace example.python
+
+struct AndroidPayload
+{
+    0: string AppInfo_Build;
+    1: string AppInfo_Campaign;
+    2: string AppInfo_ExperimentIds;
+    3: string AppInfo_Id;
+    4: string AppInfo_Language;
+    5: string AppInfo_Version;
+    6: string AppInfo_bond_meta;
+    7: string DeviceInfo_Id;
+    8: string DeviceInfo_Make;
+    9: string DeviceInfo_Model;
+    10: string DeviceInfo_NetworkProvider;
+    11: string DeviceInfo_NetworkType;
+    12: string DeviceInfo_OsBuild;
+    13: string DeviceInfo_OsName;
+    14: string DeviceInfo_OsVersion;
+    15: string DeviceInfo_bond_meta;
+    16: string EventInfo_InitId;
+    17: string EventInfo_Name;
+    18: string EventInfo_SdkVersion;
+    19: string EventInfo_Sequence;
+    20: string EventInfo_Source;
+    21: string EventInfo_Time;
+    22: string PipelineInfo_AccountId;
+    23: string PipelineInfo_AccountName;
+    24: string PipelineInfo_ClientCountry;
+    25: string PipelineInfo_ClientIp;
+    26: string PipelineInfo_IngestionTime;
+    27: string PipelineInfo_TokenDeviceId;
+    28: string PipelineInfo_TokenDurableId;
+    29: string PipelineInfo_UploadTime;
+    30: string UserInfo_ANID;
+    31: string UserInfo_AdvertisingId;
+    32: string UserInfo_Id;
+    33: string UserInfo_Language;
+    34: string UserInfo_MsaId;
+    35: string UserInfo_TimeZone;
+    36: string UserInfo_bond_meta;
+    37: string Properties_DeviceId;
+    38: string Properties_BuildTarget;
+    39: string Properties_EmailDomain;
+    40: string Properties_BuildVersion;
+    41: string Properties_Message;
+    42: string Properties_HashedEmail;
+    43: string Properties_TokenLength;
+    44: string Properties_NetworkId;
+    45: string bond_meta_toberemove;
+    46: string PageView_Category;
+    47: string PageView_Id;
+    48: string PageView_Name;
+    49: string PageView_ReferrerUri;
+    50: string PageView_Uri;
+    51: string PageView_bond_meta;
+    52: string source;
+    53: string category;
+    54: string user_agent;
+    55: string fluentd_tag;
+    56: string receiver_timestamp;
+    57: string EventTypeName;
+    58: string EventId;
+    59: string EventRegisterType;
+    60: string TS;
+    61: string fluentd_region;
+    62: string Properties_Software_HardwareInventory_ScreenWidthDPI;
+    63: string Properties_Software_HardwareInventory_ScreenWidthInPixels;
+    64: string Properties_Software_HardwareInventory_ScreenHeightInPixels;
+    65: string Properties_Software_HardwareInventory_ScreenHeightDPI;
+}
+
+
